@@ -1,0 +1,10 @@
+# macOS generated files
+.DS_Store
+
+# Vim generated files
+*~
+*.swp
+*.swo
+
+# Local configuration files
+/local.sh
