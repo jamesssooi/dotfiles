@@ -34,7 +34,7 @@ PS1="\n\[\033[100m\] @\u \033[m" # Username
 PS1+="\[\033[90;44m\]$triangle_icon\033[m" # Powerline connector
 PS1+="\[\033[44m\] \w \033[m" # Current working directory
 PS1+="\$(formatted_git_branch)" # Git information
-PS1+="\n $prompt_icon " # Prompt icon
+PS1+="\n \[\033[32m\]$prompt_icon\033[m " # Prompt icon
 
 # Export $PS1 environment variable
 export PS1
